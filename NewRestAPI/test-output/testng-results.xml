@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-21T10:07:06Z" name="Default suite" finished-at="2022-03-21T10:07:08Z" duration-ms="2550">
+    <groups>
+    </groups>
+    <test started-at="2022-03-21T10:07:06Z" name="Default test" finished-at="2022-03-21T10:07:08Z" duration-ms="2550">
+      <class name="newRestApi.NewRestAPI.newApiClass">
+        <test-method signature="postMethod(org.testng.ITestContext)[pri:0, instance:newRestApi.NewRestAPI.newApiClass@60410cd]" started-at="2022-03-21T10:07:06Z" name="postMethod" finished-at="2022-03-21T10:07:08Z" duration-ms="2305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2f62ea70]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMethod -->
+        <test-method signature="putMethod(org.testng.ITestContext)[pri:0, instance:newRestApi.NewRestAPI.newApiClass@60410cd]" started-at="2022-03-21T10:07:08Z" name="putMethod" finished-at="2022-03-21T10:07:08Z" depends-on-methods="newRestApi.NewRestAPI.newApiClass.postMethod" duration-ms="61" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2f62ea70]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putMethod -->
+        <test-method signature="deleteMethod(org.testng.ITestContext)[pri:0, instance:newRestApi.NewRestAPI.newApiClass@60410cd]" started-at="2022-03-21T10:07:08Z" name="deleteMethod" finished-at="2022-03-21T10:07:08Z" depends-on-methods="newRestApi.NewRestAPI.newApiClass.putMethod" duration-ms="44" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2f62ea70]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMethod -->
+        <test-method signature="logInMethod(org.testng.ITestContext)[pri:0, instance:newRestApi.NewRestAPI.newApiClass@60410cd]" started-at="2022-03-21T10:07:08Z" name="logInMethod" finished-at="2022-03-21T10:07:08Z" depends-on-methods="newRestApi.NewRestAPI.newApiClass.putMethod" duration-ms="52" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2f62ea70]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInMethod -->
+        <test-method signature="logOutMethod()[pri:0, instance:newRestApi.NewRestAPI.newApiClass@60410cd]" started-at="2022-03-21T10:07:08Z" name="logOutMethod" finished-at="2022-03-21T10:07:08Z" depends-on-methods="newRestApi.NewRestAPI.newApiClass.logInMethod" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutMethod -->
+      </class> <!-- newRestApi.NewRestAPI.newApiClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
